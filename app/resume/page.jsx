@@ -22,7 +22,7 @@ import {
 const about = {
   title: "About Me",
   description:
-    "I'm a full-stack developer with a passion for building innovative and user-friendly applications",
+    "I’m Kirti Lohchab, a passionate full-stack developer dedicated to crafting innovative and user-centric applications. With a strong foundation in both front-end and back-end technologies, I am committed to delivering robust and scalable solutions that enhance user experiences. I am currently available for freelance opportunities and actively seeking a full-time role where I can contribute my skills and grow in a dynamic environment.",
   info: [
     {
       fieldName: "Name",
@@ -60,38 +60,38 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "Experience",
   description:
-    " I am a passionate full-stack developer with a Master of Computer Applications (MCA) from Jain University.",
+    " I am a fresher, I have honed my skills in full-stack development through academic projects and personal initiatives. My focus has been on building dynamic and efficient web applications using modern technologies. With a solid programming foundation and a keen eye for detail, I am excited to bring my skills to a professional setting. I am actively seeking opportunities to join a forward-thinking company where I can grow as a developer and contribute to impactful projects.",
   items: [
-    {
-      company: "Tech Solution Inc.",
-      position: "Full Stack developer",
-      duration: "2022-Present",
-    },
-    {
-      company: "Web Design Studio",
-      position: "Front-End developer intern",
-      duration: " Summer-2021",
-    },
-    {
-      company: "E-commerce",
-      position: "Freelance Web developer",
-      duration: "2020-2021",
-    },
-    {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019-2020",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018-2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017-2018",
-    },
+    // {
+    //   company: "Tech Solution Inc.",
+    //   position: "Full Stack developer",
+    //   duration: "2022-Present",
+    // },
+    // {
+    //   company: "Web Design Studio",
+    //   position: "Front-End developer intern",
+    //   duration: " Summer-2021",
+    // },
+    // {
+    //   company: "E-commerce",
+    //   position: "Freelance Web developer",
+    //   duration: "2020-2021",
+    // },
+    // {
+    //   company: "Tech Academy",
+    //   position: "Teaching Assistant",
+    //   duration: "2019-2020",
+    // },
+    // {
+    //   company: "Digital Agency",
+    //   position: "UI/UX Designer",
+    //   duration: "2018-2019",
+    // },
+    // {
+    //   company: "Software Development Firm",
+    //   position: "Junior Developer",
+    //   duration: "2017-2018",
+    // },
   ],
 };
 // education
@@ -99,7 +99,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "Education",
   description:
-    " I am a passionate full-stack developer with a Master of Computer Applications (MCA) from Jain University.",
+    " I hold a Master of Computer Applications (MCA) with a specialization in Full Stack Web Development from Jain University, Bangalore. My academic journey has provided me with a deep understanding of both front-end and back-end technologies, preparing me to tackle complex challenges in the development world. Prior to this, I completed my Bachelor of Computer Applications (BCA) from Maharshi Dayanand University, Rohtak, where I built a strong foundation in programming and software development.",
   items: [
     {
       university: "Jain University (Bangalore)",
@@ -116,7 +116,7 @@ const education = {
 const skills = {
   title: "Skills",
   description:
-    " I am a passionate full-stack developer with a Master of Computer Applications (MCA) from Jain University.",
+    "I possess a diverse skill set that spans both front-end and back-end development. My proficiency in these tools and technologies allows me to build complete, end-to-end web applications efficiently.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -130,10 +130,10 @@ const skills = {
       icon: <FaJs />,
       skill: "JavaScript",
     },
-    {
-      icon: <FaFigma />,
-      skill: "Figma",
-    },
+    // {
+    //   icon: <FaFigma />,
+    //   skill: "Figma",
+    // },
     {
       icon: <FaReact />,
       skill: "React",

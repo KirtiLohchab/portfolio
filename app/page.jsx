@@ -2,6 +2,7 @@ import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { FiDownload } from "react-icons/fi";
 
 const Home = () => {
@@ -21,19 +22,25 @@ const Home = () => {
               Applications (MCA) from Jain University. I specialize in both
               front-end and back-end technologies, utilizing modern frameworks
               and libraries to create robust, scalable, and efficient
-              applications. I have a proven track record of delivering
-              exceptional user experiences and solving complex problems through
-              innovative solutions.
+              applications.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
+              <Link
+                href="/assets/resume.pdf"
+                target="blank"
+                alt=" My resume"
+                rel="noopener noreferrer"
+                download="resume"
               >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </Link>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"

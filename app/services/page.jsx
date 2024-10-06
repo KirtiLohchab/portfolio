@@ -8,28 +8,21 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
+      "As a passionate and skilled full-stack developer, I focus on building responsive and user-friendly web applications. Through my academic projects and personal initiatives, I have developed a strong understanding of modern web technologies. I am eager to apply my skills in real-world projects, delivering solutions that are optimized for performance and usability.",
     href: "",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Frontend Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
+      "I have honed my front-end development skills through hands-on experience in creating interactive and visually appealing user interfaces. Utilizing frameworks like React and Nextjs, I strive to design responsive and engaging websites. My focus is on building clean and intuitive designs that provide a seamless user experience across all devices.",
     href: "",
   },
   {
     num: "03",
-    title: "logo Design",
+    title: " Backend Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
-    href: "",
-  },
-  {
-    num: "04",
-    title: "Responsive Design",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
+      "With a solid foundation in back-end development, I specialize in building efficient and scalable server-side applications. Through my academic projects, I have gained experience in Node.js, Express.js, and database management. I am enthusiastic about developing secure and maintainable back-end systems that support dynamic web applications.",
     href: "",
   },
 ];
