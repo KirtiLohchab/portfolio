@@ -49,7 +49,7 @@ const Contact = () => {
     };
 
     try {
-      const res = await fetch("/app/api/sending-mail", {
+      const res = await fetch("/app/api/sanding-mail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
