@@ -41,17 +41,16 @@ const about = {
       fieldValue: "Indian",
     },
     {
-      fieldName: "Freelance",
-      fieldValue: "Available",
-    },
-    {
-      fieldName: "Email",
-      fieldValue: "ahlawatkirti227@gmail.com",
-    },
-
-    {
       fieldName: "Language",
       fieldValue: "English, Hindi",
+    },
+    // {
+    //   fieldName: "Freelance",
+    //   fieldValue: "Available",
+    // },
+    {
+      fieldName: "Email",
+      fieldValue: "kirtilohchab6@gmail.com",
     },
   ],
 };

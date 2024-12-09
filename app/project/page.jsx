@@ -31,13 +31,13 @@ const projects = [
   {
     num: "02",
     category: "Fullstack",
-    title: "E-commerce",
+    title: "Bg-Removal",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ex perspiciatis, repellendus sapiente eaque nisi.",
+      "Background Removal is a web application built using the MERN Stack that allows users to easily remove the background from images. The app delivers a seamless user experience with fast and efficient processing.",
     stack: [{ name: "MERN Stack" }],
-    image: "/assets/project/thumb2.png",
-    liveLink: "https://trips-and-travel.netlify.app",
-    githubLink: "https://github.com/KirtiLohchab/Trips-and-Travel",
+    image: "/assets/project/bg-removal.png",
+    liveLink: "https://background-removal-rho.vercel.app",
+    githubLink: "https://github.com/KirtiLohchab/background-removal",
   },
   {
     num: "03",

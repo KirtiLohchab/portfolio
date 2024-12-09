@@ -25,7 +25,7 @@ const info = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "ahlawatkirti227@gmail.com",
+    description: "kirtilohchab6@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
@@ -47,23 +47,21 @@ const Contact = () => {
       service: e.target.service.value,
       message: e.target.message.value,
     };
-
     try {
-      const res = await fetch("/app/api/sanding-mail", {
+      const res = await fetch("/api/send-mail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
       });
-
+      const data = res.json();
       if (res.ok) {
         alert("Message sent successfully!");
       } else {
         alert("Failed to send message.");
       }
     } catch (error) {
-      console.error("Error sending email:", error);
       alert("An error occurred.");
     } finally {
       setLoading(false);
