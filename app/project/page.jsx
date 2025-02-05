@@ -42,6 +42,17 @@ const projects = [
   {
     num: "03",
     category: "Fullstack",
+    title: " FOREVER E-commerce",
+    description:
+      "Developed a full-featured e-commerce platform using the MERN stack, enabling users to browse, filter, and purchase products with secure payment integration. Implemented an admin dashboard for product management, order tracking, and user control.",
+    stack: [{ name: "MERN Stack" }],
+    image: "/assets/project/forever.png",
+    liveLink: "https://frontend-lovat-mu-26.vercel.app",
+    githubLink: "https://github.com/KirtiLohchab/forever-full-stack",
+  },
+  {
+    num: "03",
+    category: "Fullstack",
     title: "Portfolio",
     description:
       "This project showcases a dynamic and responsive portfolio website built with Next.js and Tailwind CSS. it highlights skills in front-end and back-end development, featuring sections like an about me, skills, projects, and contact information. The portfolio emphasizes modern design principles, optimized performance, and clean code, providing a professional platform to present personal projects, technologies, and expertise",
