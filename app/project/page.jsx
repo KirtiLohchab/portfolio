@@ -51,7 +51,7 @@ const projects = [
     githubLink: "https://github.com/KirtiLohchab/forever-full-stack",
   },
   {
-    num: "03",
+    num: "04",
     category: "Fullstack",
     title: "Portfolio",
     description:
@@ -61,6 +61,24 @@ const projects = [
     image: "/assets/project/thumb3.png",
     liveLink: "https://trips-and-travel.netlify.app",
     githubLink: "https://github.com/KirtiLohchab/Trips-and-Travel",
+  },
+  {
+    num: "05",
+    category: "Fullstack",
+    title: "MemeVerse",
+    description:
+      "MemeVerse is a modern, full-stack meme-sharing web app built with Next.js (App Router), Tailwind CSS, and Framer Motion. It features meme uploading (via Cloudinary), infinite scroll exploration, search and sort functionality, dark/light mode toggle, and a leaderboard showcasing top creators. Powered by Redux Toolkit for scalable state management and optimized with SSR/CSR for performance and SEO. MemeVerse delivers a smooth, responsive, and interactive user experience.",
+
+    stack: [
+      { name: "Next.js" },
+      { name: "TypeScript" },
+      { name: "Tailwind CSS" },
+      { name: "Redux Toolkit" },
+      { name: "Cloudinary" },
+    ],
+    image: "/assets/project/meme.png",
+    liveLink: "https://memeverse-zeta.vercel.app",
+    githubLink: "https://github.com/KirtiLohchab/memeverse",
   },
 ];
 
